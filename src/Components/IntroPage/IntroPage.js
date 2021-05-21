@@ -1,5 +1,6 @@
 import React from 'react';
 import Styles from './IntroPage.module.css';
+import ProfilePic from '../../assets/profilePic.svg';
 
 const IntroPage = ()=>{
     return(
@@ -22,7 +23,7 @@ const IntroPage = ()=>{
                 </div>
             </div>
             <div className={Styles.imgContainer}>
-
+                <img src={ProfilePic} />
             </div>
         </div>
     )

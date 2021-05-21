@@ -90,3 +90,100 @@
   background-color: #94fc13;
   transition-duration: 0.4s;
 }
+
+.imgContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.imgContainer img {
+  width: 55%;
+}
+
+@media screen and (max-width: 1191px) {
+  .heading {
+    width: 90%;
+  }
+  .line {
+    width: 75%;
+  }
+
+  .imgContainer img {
+    width: 73%;
+  }
+}
+
+@media screen and (max-width: 971px) {
+  .word p {
+    font-size: 30px;
+  }
+  .line {
+    margin-top: 20px;
+  }
+  .backLine {
+    font-size: 120px;
+  }
+  .frontLine {
+    font-size: 35px;
+  }
+  .work {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 847px) {
+  .line {
+    width: 73%;
+  }
+  .fancyWords {
+    height: 90px;
+    margin: 5px 0px;
+  }
+  .backLine {
+    font-size: 90px;
+    line-height: 90px;
+    margin-left: -80px;
+  }
+  .frontLine {
+    font-size: 30px;
+    margin-top: -70px;
+  }
+  .work {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .majorContainer {
+    grid-template-columns: 100%;
+  }
+  .imgContainer {
+    display: none;
+  }
+
+  .backLine {
+    margin-left: -80px;
+  }
+  .word p {
+    font-size: 35px;
+  }
+  .line {
+    margin-top: 24px;
+  }
+  .fancyWords {
+    margin: 19px 0px;
+  }
+  .backLine {
+    font-size: 150px;
+  }
+  .frontLine {
+    font-size: 45px;
+  }
+  .work {
+    font-size: 30px;
+  }
+  .buttonContainer {
+    margin-top: 60px;
+  }
+}
