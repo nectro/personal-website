@@ -1,0 +1,92 @@
+.majorContainer {
+  height: calc(100vh - 65px);
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+.introContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 8%;
+  overflow-x: hidden;
+}
+.heading {
+  height: 52px;
+  width: 70%;
+}
+.heading div {
+  display: inline-block;
+}
+.word {
+  float: left;
+}
+.word p {
+  font-size: 35px;
+  font-weight: 600;
+}
+.line {
+  float: left;
+  width: 74%;
+  height: 4px;
+  margin-top: 24px;
+  margin-left: 16px;
+  background-color: rgba(0, 0, 0, 0.74);
+  border-radius: 5px;
+}
+
+.fancyWords {
+  height: 110px;
+}
+.backLine {
+  font-size: 140px;
+  line-height: 110px;
+  font-weight: 600;
+  margin-left: -160px;
+  color: rgba(0, 0, 0, 0.1);
+  user-select: none;
+}
+.frontLine {
+  font-size: 41px;
+  font-weight: 600;
+  margin-top: -85px;
+  user-select: none;
+}
+.work {
+  font-size: 30px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.buttonContainer {
+  margin-top: 40px;
+}
+.buttonContainer a {
+  text-decoration: none;
+  padding: 4px 12px;
+  margin-right: 30px;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 6px;
+  border: 2px solid #94fc13;
+}
+
+#km {
+  color: #fff;
+  background-color: #94fc13;
+}
+#km:hover {
+  color: rgba(0, 0, 0, 0.705);
+  background-color: #fff;
+  transition-duration: 0.4s;
+}
+#res {
+  color: rgba(0, 0, 0, 0.705);
+  padding: 4px 34px;
+  background-color: #fff;
+}
+#res:hover {
+  color: #fff;
+  background-color: #94fc13;
+  transition-duration: 0.4s;
+}
