@@ -20,7 +20,6 @@ const IntroPage = ()=>{
                     <a href="#" id={Styles.km}>KNOW MORE</a>
                     <a href="#" id={Styles.res}>RESUME</a>
                 </div>
-
             </div>
             <div className={Styles.imgContainer}>
 
