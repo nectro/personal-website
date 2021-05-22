@@ -13,7 +13,8 @@ const IntroPage = ()=>{
                 <div className={Styles.greetings}>
                     <div className={Styles.fancyWords}>
                         <p className={Styles.backLine}>SAMANTA</p>
-                        <p className={Styles.frontLine}>I AM SAMARESH SAMANTA</p>  
+                        <p className={Styles.frontLine}>I AM SAMARESH SAMANTA</p>
+                        <p className={Styles.frontLine1}>I AM<br/>SAMARESH SAMANTA</p>  
                     </div>
                     <p className={Styles.work}>FRONTEND WEB DEVELOPER</p>
                 </div>

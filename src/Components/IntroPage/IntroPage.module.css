@@ -52,6 +52,9 @@
   margin-top: -85px;
   user-select: none;
 }
+.frontLine1 {
+  display: none;
+}
 .work {
   font-size: 30px;
   font-weight: 600;
@@ -185,5 +188,91 @@
   }
   .buttonContainer {
     margin-top: 60px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .frontLine {
+    display: none;
+  }
+  .line {
+    width: 70%;
+  }
+  .fancyWords {
+    height: 190px;
+    margin: 4px 0px;
+  }
+  .backLine {
+    font-size: 200px;
+    margin-left: -190px;
+    line-height: 190px;
+  }
+  .frontLine1 {
+    display: block;
+    font-size: 41px;
+    font-weight: 600;
+    margin-top: -155px;
+    line-height: 60px;
+  }
+  .work {
+    font-size: 27px;
+  }
+  .buttonContainer a {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 546px) {
+  .introContainer {
+    padding-left: 6%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .heading {
+    width: 95%;
+  }
+  .introContainer {
+    padding-left: 5%;
+  }
+  .word p {
+    font-size: 7vw;
+  }
+  .line {
+    height: 0.7vw;
+    width: 67%;
+    margin-top: 4.8vw;
+  }
+  .fancyWords {
+    height: 42vw;
+    margin: 0px 0px;
+  }
+  .backLine {
+    font-size: 40vw;
+    margin-left: -150px;
+    line-height: 40vw;
+  }
+  .frontLine1 {
+    display: block;
+    font-size: 8vw;
+    font-weight: 600;
+    margin-top: -29vw;
+    line-height: 10.5vw;
+  }
+  .work {
+    font-size: 5.4vw;
+  }
+}
+
+@media screen and (max-width: 435px) {
+  .buttonContainer a {
+    display: block;
+    text-align: center;
+    padding: 4px 12px;
+    width: 70%;
+    margin-bottom: 20px;
+  }
+  #res {
+    padding: 4px 12px;
   }
 }
