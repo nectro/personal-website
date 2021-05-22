@@ -54,12 +54,39 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 800px) {
+.iconContainer {
+  display: none;
+}
+
+@media screen and (max-width: 724px) {
   .contactBtn {
     display: none;
   }
-
+  .majorContainer {
+    padding: 0px 10px;
+  }
   .navMenu {
     display: none;
+  }
+  .majorContainer {
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logoContainer {
+    float: none;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    text-align: center;
+    width: fit-content;
+  }
+  .iconContainer {
+    display: block;
+  }
+  .iconContainer a {
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.75);
   }
 }

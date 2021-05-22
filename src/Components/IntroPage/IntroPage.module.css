@@ -191,6 +191,12 @@
   }
 }
 
+@media screen and (max-width: 724px) {
+  .majorContainer {
+    height: calc(100vh - 55px);
+  }
+}
+
 @media screen and (max-width: 700px) {
   .frontLine {
     display: none;
