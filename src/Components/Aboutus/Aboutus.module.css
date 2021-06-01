@@ -1,0 +1,83 @@
+.majorContainer {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+}
+.vecImageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+.vecImageContainer img {
+  width: 67%;
+}
+.abtusMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 8%;
+  height: 50vh;
+}
+.heading {
+  height: 52px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row-reverse;
+  padding-left: 4%;
+}
+.heading div {
+  display: flex;
+}
+.word p {
+  font-size: 35px;
+  font-weight: 600;
+}
+.line {
+  flex-grow: 1;
+  height: 4px;
+  margin-top: 24px;
+  margin-right: 16px;
+  background-color: rgba(0, 0, 0, 0.74);
+  border-radius: 5px;
+}
+.description {
+  margin: 30px 0px;
+  padding: 0px 10px;
+  padding-left: 4.6%;
+}
+.description p {
+  font-size: 16.5px;
+  line-height: 34px;
+  text-align: justify;
+  color: rgba(0, 0, 0, 0.6);
+}
+.skillSetContainer {
+  grid-column: 1/3;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10%;
+  padding: 80px 10%;
+}
+.skillSetContainer div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0px;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: 15%;
+}
+.skillSetContainer div img {
+  height: 50px;
+}
+.skillSetContainer div p {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.6);
+}
