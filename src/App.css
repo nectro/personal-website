@@ -3,6 +3,10 @@
   pointer-events: none;
 }
 
+* {
+  scroll-behavior: smooth;
+}
+
 ::-webkit-scrollbar {
   width: 8px;
   background-color: whitesmoke;

@@ -11,10 +11,12 @@ import skill7 from '../../assets/skills/skill7.svg'
 import skill8 from '../../assets/skills/skill8.svg'
 import skill9 from '../../assets/skills/skill9.svg'
 import skill10 from '../../assets/skills/skill10.svg'
+import skill11 from '../../assets/skills/skill11.svg'
+import skill12 from '../../assets/skills/skill12.svg'
 
 const Aboutus = ()=>{
     return(
-        <div className={styles.majorContainer}>
+        <div className={styles.majorContainer} id="abt">
             <div className={styles.vecImageContainer}>
                 <img src={FunkyImage} />
             </div>
@@ -25,7 +27,7 @@ const Aboutus = ()=>{
                 </div>
                 <div className={styles.description}>
                     <p>
-                        Greetings! I'm a first year student studying Computer Science Engineering in SRMIST, enthusiastic coder eager to contribute to teams success via hard work and always have a thirst to learn about new technologies. I always love to work on unique and creative ideas which may make our daily lives easier. I have clear understanding in frontend development from my training in html, css and javascript. Some of my other skills are as follows:
+                        Greetings! I'm a first year student studying Computer Science and Engineering in SRMIST, enthusiastic coder eager to contribute to teams success via hard work and always have a thirst to learn about new technologies. I always love to work on unique and creative ideas which may make our daily lives easier. I have clear understanding in frontend development from my training in html, css and javascript. Some of my other skills are as follows:
                     </p>
                 </div>
 
@@ -40,6 +42,10 @@ const Aboutus = ()=>{
                     <p>CSS</p>
                 </div>
                 <div>
+                    <img src={skill12} />
+                    <p>JAVASCRIPT</p>
+                </div>
+                <div>
                     <img src={skill3} />
                     <p>REACT</p>
                 </div>
@@ -52,24 +58,28 @@ const Aboutus = ()=>{
                     <p>FIREBASE</p>
                 </div>
                 <div>
-                    <img src={skill6} />
-                    <p>FIREBASE</p>
-                </div>
-                <div>
                     <img src={skill7} />
-                    <p>FIREBASE</p>
+                    <p>C</p>
                 </div>
                 <div>
                     <img src={skill8} />
-                    <p>FIREBASE</p>
+                    <p>PYTHON</p>
                 </div>
                 <div>
                     <img src={skill9} />
-                    <p>FIREBASE</p>
+                    <p>JAVA</p>
                 </div>
                 <div>
                     <img src={skill10} />
-                    <p>FIREBASE</p>
+                    <p>PHP</p>
+                </div>
+                <div>
+                    <img src={skill11} />
+                    <p>MONGODB</p>
+                </div>
+                <div>
+                    <img src={skill6} />
+                    <p>SQL</p>
                 </div>
 
             </div>

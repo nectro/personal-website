@@ -4,8 +4,10 @@
 }
 .majorContainer {
   height: 65px;
+  width: 100%;
   background-color: #f7ff56;
   box-shadow: 0px 1px 10px 2px rgba(0, 0, 0, 0.2);
+  position: fixed;
 }
 .logoContainer {
   float: left;

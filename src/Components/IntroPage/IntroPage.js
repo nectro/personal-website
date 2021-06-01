@@ -4,7 +4,7 @@ import ProfilePic from '../../assets/profilePic.svg';
 
 const IntroPage = ()=>{
     return(
-        <div className={Styles.majorContainer}>
+        <div className={Styles.majorContainer} id="hm">
             <div className={Styles.introContainer}>
                 <div className={Styles.heading}>
                     <div className={Styles.word}><p>HELLO</p></div>

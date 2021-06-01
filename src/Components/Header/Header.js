@@ -18,13 +18,13 @@ const Header = ()=>{
             <div className={Styles.navMenu}>
                 <ul>
                     <li>
-                        <a href="#">HOME</a>                        
+                        <a href="#hm">HOME</a>                        
                     </li>
                     <li>
-                        <a href="#">ABOUT</a>                        
+                        <a href="#abt">ABOUT</a>                        
                     </li>
                     <li>
-                        <a href="#">EDUCATION</a>                        
+                        <a href="#Ed">EDUCATION</a>                        
                     </li>
                     <li>
                         <a href="#">PROJECTS</a>                        

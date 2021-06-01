@@ -1,5 +1,6 @@
 .majorContainer {
   height: calc(100vh - 65px);
+  padding-top: 65px;
   display: grid;
   grid-template-columns: 60% 40%;
 }

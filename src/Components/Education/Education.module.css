@@ -1,0 +1,67 @@
+.majorContainer {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+}
+.info {
+  padding-left: 8%;
+  padding-top: 6vh;
+}
+.heading {
+  height: 52px;
+  margin-top: 30px;
+  margin-bottom: 7vh;
+  display: flex;
+  flex-direction: row;
+  padding-right: 5%;
+}
+.heading div {
+  display: flex;
+}
+.word p {
+  font-size: 35px;
+  font-weight: 600;
+}
+.line {
+  flex-grow: 1;
+  height: 4px;
+  margin-top: 24px;
+  margin-left: 16px;
+  background-color: rgba(0, 0, 0, 0.74);
+  border-radius: 5px;
+}
+.educationInfo {
+  margin-top: 6vh;
+  margin-left: 14%;
+}
+.educationInfo h2 {
+  font-size: 28px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.6);
+}
+.educationInfo div {
+  padding-left: 7%;
+  margin-top: 2vh;
+}
+.educationInfo div h3 {
+  font-size: 24px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.7);
+}
+.educationInfo div p {
+  margin-top: 1vh;
+  font-size: 16px;
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.vecImg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 8vh;
+}
+.vecImg img {
+  width: 77%;
+}

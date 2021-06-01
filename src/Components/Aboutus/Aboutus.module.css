@@ -8,6 +8,7 @@
   align-items: center;
   justify-content: center;
   height: 50vh;
+  padding-top: 8vh;
 }
 .vecImageContainer img {
   width: 67%;
@@ -18,13 +19,14 @@
   justify-content: center;
   padding-right: 8%;
   height: 50vh;
+  padding-top: 8vh;
 }
 .heading {
   height: 52px;
   margin-top: 30px;
   display: flex;
   flex-direction: row-reverse;
-  padding-left: 4%;
+  padding-left: 5%;
 }
 .heading div {
   display: flex;
@@ -47,7 +49,7 @@
   padding-left: 4.6%;
 }
 .description p {
-  font-size: 16.5px;
+  font-size: 15.5px;
   line-height: 34px;
   text-align: justify;
   color: rgba(0, 0, 0, 0.6);
@@ -67,10 +69,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 40px 0px;
+  margin: 60px 0px;
   flex-grow: 0;
   flex-shrink: 1;
-  flex-basis: 15%;
+  flex-basis: 10%;
 }
 .skillSetContainer div img {
   height: 50px;
