@@ -10,6 +10,9 @@ const Education = ()=>{
                     <div className={styles.word}><p>EDUCATION</p></div>
                     <div className={styles.line}></div>
                 </div>
+                <div className={styles.vecImg} id={styles.forMob}>
+                    <img src={FancyImg} />
+                </div>
                 <div className={styles.educationInfo}>
                     <h2>COLLEGE</h2>
                     <div>
@@ -25,7 +28,7 @@ const Education = ()=>{
                     </div>
                 </div>
             </div>
-            <div className={styles.vecImg}>
+            <div className={styles.vecImg}  id={styles.forComp}>
                 <img src={FancyImg} />
             </div>
         </div>

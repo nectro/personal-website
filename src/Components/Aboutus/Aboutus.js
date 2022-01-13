@@ -13,6 +13,7 @@ import skill9 from '../../assets/skills/skill9.svg'
 import skill10 from '../../assets/skills/skill10.svg'
 import skill11 from '../../assets/skills/skill11.svg'
 import skill12 from '../../assets/skills/skill12.svg'
+import ProfilePic from '../../assets/profilePic.svg';
 
 const Aboutus = ()=>{
     return(
@@ -25,9 +26,12 @@ const Aboutus = ()=>{
                     <div className={styles.word}><p>ABOUT ME</p></div>
                     <div className={styles.line}></div>
                 </div>
+                <div className={styles.imgContainer}>
+                    <img src={ProfilePic} />
+                </div>
                 <div className={styles.description}>
                     <p>
-                        Greetings! I'm a first year student studying Computer Science and Engineering in SRMIST, enthusiastic coder eager to contribute to teams success via hard work and always have a thirst to learn about new technologies. I always love to work on unique and creative ideas which may make our daily lives easier. I have clear understanding in frontend development from my training in html, css and javascript. Some of my other skills are as follows:
+                        Greetings! I'm a Second year student studying Computer Science and Engineering in SRMIST, enthusiastic coder eager to contribute to teams success via hard work and always have a thirst to learn about new technologies. I always love to work on unique and creative ideas which may make our daily lives easier. I have clear understanding in frontend development from my training in html, css and javascript. Some of my other skills are as follows:
                     </p>
                 </div>
 

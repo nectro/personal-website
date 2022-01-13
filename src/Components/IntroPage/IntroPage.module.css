@@ -69,8 +69,8 @@
   text-decoration: none;
   padding: 4px 12px;
   margin-right: 30px;
-  font-size: 15px;
-  font-weight: 500;
+  font-size: 23px;
+  font-weight: 600;
   border-radius: 6px;
   border: 2px solid #94fc13;
 }
@@ -194,7 +194,7 @@
 
 @media screen and (max-width: 724px) {
   .majorContainer {
-    height: calc(100vh - 55px);
+    height: calc(100vh - 0px);
   }
 }
 

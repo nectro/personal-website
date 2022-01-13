@@ -65,3 +65,61 @@
 .vecImg img {
   width: 77%;
 }
+#forMob{
+  display: none !important;
+}
+#forComp{
+  display: flex !important;
+}
+@media screen and (max-width:700px){
+  .majorContainer{
+    display: block;
+  }
+
+  #forComp{
+    display: none !important;
+  }
+
+  #forMob{
+    display: flex !important;
+  }
+  .heading{
+    padding:0px 5%;
+  }
+  .vecImg{
+    padding:0px;
+    height:65vw;
+  }
+  .vecImg img{
+    width:60vw;
+  }
+  .info{
+    padding: 0px;
+  }
+  .educationInfo{
+    margin: 0px 5%;
+    margin-top: 40px;
+  }
+  .educationInfo div h3 {
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .educationInfo div p {
+    margin-top: 1vh;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:380px){
+  .educationInfo{
+    margin-top: 20px;
+  }
+  .educationInfo div h3 {
+    font-size: 22px;
+    font-weight: 500;
+  }
+  .educationInfo div p {
+    margin-top: 1vh;
+    font-size: 12px;
+  }
+}
