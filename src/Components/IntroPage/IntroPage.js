@@ -1,30 +1,47 @@
 import React from 'react';
 import Styles from './IntroPage.module.css';
 import ProfilePic from '../../assets/profilePic.svg';
+import Fade from 'react-reveal/Fade';
+import Bounce from 'react-reveal/Bounce';
+import Zoom from 'react-reveal/Zoom';
 
 const IntroPage = ()=>{
     return(
         <div className={Styles.majorContainer} id="hm">
             <div className={Styles.introContainer}>
                 <div className={Styles.heading}>
-                    <div className={Styles.word}><p>HELLO</p></div>
-                    <div className={Styles.line}></div>
+                    <Fade left duration={2000}>
+                        <div className={Styles.word}><p>HELLO</p></div>
+                    </Fade>
+                    <Fade delay={1000}>
+                        <div className={Styles.line}></div>
+                    </Fade>
                 </div>
                 <div className={Styles.greetings}>
                     <div className={Styles.fancyWords}>
-                        <p className={Styles.backLine}>SAMANTA</p>
-                        <p className={Styles.frontLine}>I AM SAMARESH SAMANTA</p>
+                        <Fade left duration={2000}>
+                            <p className={Styles.backLine}>SAMANTA</p>
+                        </Fade>
+                        <Fade left duration={2000}>
+                            <p className={Styles.frontLine}>I AM SAMARESH SAMANTA</p>
+                        </Fade>
                         <p className={Styles.frontLine1}>I AM<br/>SAMARESH SAMANTA</p>  
                     </div>
-                    <p className={Styles.work}>FULLSTACK WEB DEVELOPER</p>
+                    <Fade top delay={1400}>
+                        <p className={Styles.work}>FULLSTACK WEB DEVELOPER</p>
+                    </Fade>
                 </div>
-                <div className={Styles.buttonContainer}>
-                    <a href="#" id={Styles.km}>KNOW MORE</a>
-                    <a href="#" id={Styles.res}>RESUME</a>
-                </div>
+                <Bounce left delay={1000}>
+                    <div className={Styles.buttonContainer}>
+                        <a href="#abt" id={Styles.km}>KNOW MORE</a>
+                        <a href="#" id={Styles.res}>RESUME</a>
+                    </div>
+                </Bounce>
             </div>
             <div className={Styles.imgContainer}>
-                <img src={ProfilePic} />
+                <Zoom>
+                    <img src={ProfilePic} />
+                </Zoom>
             </div>
         </div>
     )

@@ -163,7 +163,9 @@
     }
     .description h2{
         font-size: 32px;
+        font-weight: 700;
         margin-bottom: 30px;
+        color:rgba(0,0,0,0.8);
     }
     .description p{
         font-size: 18px;
