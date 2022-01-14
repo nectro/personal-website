@@ -4,6 +4,8 @@ import IntroPage from './Components/IntroPage/IntroPage';
 import Aboutus from './Components/Aboutus/Aboutus';
 import Education from './Components/Education/Education';
 import Projects from './Components/Projects/Projects';
+import Contact from './Components/Contact/Contact';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <Aboutus />
       <Education />
       <Projects />
+      <Contact />
+      <Footer />
     </div>
   );
 }
