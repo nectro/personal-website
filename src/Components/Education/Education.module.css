@@ -1,5 +1,6 @@
 .majorContainer {
-  height: 100vh;
+  min-height: 100vh;
+  margin-bottom: 40px;
   display: grid;
   grid-template-columns: 1.3fr 1fr;
 }

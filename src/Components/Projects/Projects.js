@@ -88,19 +88,25 @@ const Projects = ()=>{
                 {
                     projects.map((project,key) =>(
                         <div className={styles.project} key={key} >
-                            <div className={styles.imgHolder}>
+                            <div className={`${styles.imgHolder} ${styles.forComp}`}>
                                 <a href="https://esindia.in/" target="_blank"
                             rel="noopener noreferrer">
                                     <img src={project.image} alt="project1" />
                                 </a>
                             </div>
-                            <div className={styles.description}>
+                            <div className={`${styles.description}`}>
                                 <h2>{project.name}</h2>
                                 <p>
                                     {project.description}
                                 </p>
                             </div>
-                            <div className={styles.gitHolder}>
+                            <div className={`${styles.imgHolder} ${styles.forMob}`}>
+                                <a href="https://esindia.in/" target="_blank"
+                            rel="noopener noreferrer">
+                                    <img src={project.image} alt="project1" />
+                                </a>
+                            </div>
+                            <div className={`${styles.gitHolder} ${styles.forComp}`}>
                                 <a 
                                     href={project.github} 
                                     target="_blank"
@@ -109,12 +115,21 @@ const Projects = ()=>{
                                         CODE ON GITHUB
                                 </a>
                             </div>
-                            <div className={styles.toolsHolder}>
+                            <div className={`${styles.toolsHolder}`}>
                                 {
                                     project.tools.map((tool,key) => 
                                         <img src={tool} alt="tool" key={key} />
                                     )
                                 }
+                            </div>
+                            <div className={`${styles.gitHolder} ${styles.forMob}`}>
+                                <a 
+                                    href={project.github} 
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    >
+                                        CODE ON GITHUB
+                                </a>
                             </div>
                         </div>
                     ))
