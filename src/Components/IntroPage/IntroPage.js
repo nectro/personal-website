@@ -19,13 +19,15 @@ const IntroPage = ()=>{
                 </div>
                 <div className={Styles.greetings}>
                     <div className={Styles.fancyWords}>
-                        <Fade left duration={2000}>
+                        <Fade left duration={2500}>
                             <p className={Styles.backLine}>SAMANTA</p>
                         </Fade>
                         <Fade left duration={2000}>
                             <p className={Styles.frontLine}>I AM SAMARESH SAMANTA</p>
                         </Fade>
-                        <p className={Styles.frontLine1}>I AM<br/>SAMARESH SAMANTA</p>  
+                        <Fade left duration={2000}>
+                            <p className={Styles.frontLine1}>I AM<br/>SAMARESH SAMANTA</p>  
+                        </Fade>
                     </div>
                     <Fade top delay={1400}>
                         <p className={Styles.work}>FULLSTACK WEB DEVELOPER</p>
