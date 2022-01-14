@@ -6,7 +6,7 @@ import { IoLocationSharp } from 'react-icons/io5'
 
 const Contact = ()=>{
     return (
-        <div className={styles.majorContainer}>
+        <div className={styles.majorContainer} id="co">
             <div className={styles.headerContainer}>
                 <h2>CONTACT</h2>
                 <h1>CONTACT</h1>

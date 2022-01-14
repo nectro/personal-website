@@ -79,7 +79,7 @@ const Projects = ()=>{
     const ar = [1,2,3,4,5,6];
 
     return (
-        <div className={styles.majorContainer}>
+        <div className={styles.majorContainer} id="pr">
             <div className={styles.headerContainer}>
                 <h2>PROJECTS</h2>
                 <h1>PROJECTS</h1>
