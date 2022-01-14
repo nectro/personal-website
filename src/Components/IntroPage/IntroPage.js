@@ -16,7 +16,7 @@ const IntroPage = ()=>{
                         <p className={Styles.frontLine}>I AM SAMARESH SAMANTA</p>
                         <p className={Styles.frontLine1}>I AM<br/>SAMARESH SAMANTA</p>  
                     </div>
-                    <p className={Styles.work}>FRONTEND WEB DEVELOPER</p>
+                    <p className={Styles.work}>FULLSTACK WEB DEVELOPER</p>
                 </div>
                 <div className={Styles.buttonContainer}>
                     <a href="#" id={Styles.km}>KNOW MORE</a>

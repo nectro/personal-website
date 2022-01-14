@@ -76,11 +76,11 @@
 }
 .skillSetContainer div img {
   height: 50px;
+  transition-duration: 0.1s;
   opacity: 0.8;
 }
 .skillSetContainer div img:hover{
   transform: scale(1.13);
-  transition-duration: 0.1s;
   opacity: 1;
 }
 .skillSetContainer div p {
