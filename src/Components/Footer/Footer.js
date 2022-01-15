@@ -24,7 +24,7 @@ const Footer = ()=>{
                         <BsInstagram />
                     </a>
                 </div>
-                <p><FaRegCopyright /> 2022 Samaresh Samanta</p>
+                <p>designed and developed by Samaresh Samanta</p>
             </div>
         </div>
     )

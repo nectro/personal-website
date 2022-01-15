@@ -40,7 +40,7 @@ const Projects = ()=>{
             image:project7,
             link:"https://0fitify0.netlify.app/home",
             name:"FITIFY",
-            description:"Lorem ipsum dolor sit amet, consectetur adipng sed do eiusmod tempor incididunt ut labore et dolore magna tempor incididunt ut labore et dolore magna ",
+            description:"A fitness app where one can make diet charts, workout plan, hire a fitness trainer, shop for fitness items and there is a workout simulation with music player. Created in a hackathon.",
             github:"https://github.com/nectro/Fitify",
             tools:[
                 skill11,
@@ -54,7 +54,7 @@ const Projects = ()=>{
             image:project8,
             link:"https://cap.aaruush.org/",
             name:"CAP PORTAL AARUUSH",
-            description:"Lorem ipsum dolor sit amet, consectetur adipng sed do eiusmod tempor incididunt ut labore et dolore magna tempor incididunt ut labore et dolore magna ",
+            description:"Campus Ambassador Portal of Aaruush, basically a portal for all the campus ambassador where they will get daily tasks, monitor their progress. Its a pretty Interactive site",
             github:"https://github.com/team-envision/CAP-Portal",
             tools:[
                 skill11,
@@ -68,7 +68,7 @@ const Projects = ()=>{
             image:project2,
             link:"https://wallpy.netlify.app",
             name:"WALLPY",
-            description:"Lorem ipsum dolor sit amet, consectetur adipng sed do eiusmod tempor incididunt ut labore et dolore magna tempor incididunt ut labore et dolore magna ",
+            description:"A webapp where people can share and download wallpapers. The project was sort of like unSplash but mostly on wallpaper. It was made using firebase and React. ",
             github:"https://github.com/nectro/WallPy",
             tools:[
                 skill3,
@@ -81,7 +81,7 @@ const Projects = ()=>{
             image:project6,
             link:"https://resonate.msclubsrm.in/",
             name:"RESONATE WEBSITE",
-            description:"Lorem ipsum dolor sit amet, consectetur adipng sed do eiusmod tempor incididunt ut labore et dolore magna tempor incididunt ut labore et dolore magna ",
+            description:"The website for Resonate a hackathon conducted by Microsoft Learn Student Ambassador SRM, It was built using React and the animations were implemented using tilt.js and framer-motion",
             github:"https://github.com/nectro/Hackathon-task-force",
             tools:[
                 skill4,
@@ -94,7 +94,7 @@ const Projects = ()=>{
             image:project9,
             link:"https://msclubsrm.in/",
             name:"MLSASRM WEBSITE",
-            description:"Lorem ipsum dolor sit amet, consectetur adipng sed do eiusmod tempor incididunt ut labore et dolore magna tempor incididunt ut labore et dolore magna ",
+            description:"The website for the college club Microsoft Learn Student Ambassador SRM, this is the updated website. the frontend was made using React and the backend was done in node.js",
             github:"https://github.com/nectro/mlsa-new-website",
             tools:[
                 skill11,
@@ -108,7 +108,7 @@ const Projects = ()=>{
             image:project11,
             link:"https://tsummit.aaruush.org/",
             name:"TSUMMIT WEBSITE",
-            description:"Lorem ipsum dolor sit amet, consectetur adipng sed do eiusmod tempor incididunt ut labore et dolore magna tempor incididunt ut labore et dolore magna ",
+            description:"the website for Tsummit an ideathon conducted by Aaruush. The front was made using ejs, html and css and the backend was done in node.js.",
             github:"https://github.com/team-envision/Teach-Bot-mern/tree/new",
             tools:[
                 skill4,
@@ -120,7 +120,7 @@ const Projects = ()=>{
             image:project10,
             link:"https://linkskeeper.aaruush.org/",
             name:"LINKSKEEPER",
-            description:"Lorem ipsum dolor sit amet, consectetur adipng sed do eiusmod tempor incididunt ut labore et dolore magna tempor incididunt ut labore et dolore magna ",
+            description:"A Links bookmarking web application made in MERN stacks, this was made for TeachBot a workshop conducted by Team Envision where we taught how to make a MERN stacks application",
             github:"https://github.com/team-envision/Teach-Bot-mern/tree/new",
             tools:[
                 skill11,
@@ -134,7 +134,7 @@ const Projects = ()=>{
             image:project1,
             link:"https://esindia.in",
             name:"EXPERT AE SOLUTIONS WEBSITE",
-            description:"Lorem ipsum dolor sit amet, consectetur adipng sed do eiusmod tempor incididunt ut labore et dolore magna tempor incididunt ut labore et dolore magna ",
+            description:"A website for the company Expert AE Solutions, made using react. one of the libraries used for animation was React-reveal. ",
             github:"https://github.com/nectro/ES-India-1",
             tools:[
                 skill3,
@@ -146,7 +146,7 @@ const Projects = ()=>{
             image:project3,
             link:"https://iamsamaresh.netlify.app",
             name:"PORTFOLIO WEBSITE",
-            description:"Lorem ipsum dolor sit amet, consectetur adipng sed do eiusmod tempor incididunt ut labore et dolore magna tempor incididunt ut labore et dolore magna ",
+            description:"My Portfolio Website made using React. Its basically a static page. all the animations are implemented using framer-motion and react-reaveal. I designed it in figma",
             github:"https://github.com/nectro/personal-website",
             tools:[
                 skill3,
@@ -158,7 +158,7 @@ const Projects = ()=>{
             image:project4,
             link:"https://votersbay.000webhostapp.in",
             name:"CONFESS",
-            description:"Lorem ipsum dolor sit amet, consectetur adipng sed do eiusmod tempor incididunt ut labore et dolore magna tempor incididunt ut labore et dolore magna ",
+            description:"A website where you can send a link via ur social media and know what other people want to confess u. but u won't know there names as it will be hidden. the backend was done in php",
             github:"https://github.com/nectro/Confess",
             tools:[
                 skill1,
@@ -171,7 +171,7 @@ const Projects = ()=>{
             image:project5,
             link:"https://esindia.in",
             name:"SUREPROF",
-            description:"Lorem ipsum dolor sit amet, consectetur adipng sed do eiusmod tempor incididunt ut labore et dolore magna tempor incididunt ut labore et dolore magna ",
+            description:"My first Website after i learned HTML, CSS and php. this was a website for my tution teacher wehere she could keep a record of all the fees paid.",
             github:"https://github.com/nectro/sureprof",
             tools:[
                 skill1,
@@ -232,7 +232,7 @@ const Projects = ()=>{
                                     </a>
                                 </div>
                             </Zoom>
-                            <Bounce right cascade delay={700}>
+                            <Bounce right cascade delay={400}>
                                 <div className={`${styles.toolsHolder}`}>
                                     {
                                         project.tools.map((tool,key) => 
