@@ -215,12 +215,14 @@ const Projects = ()=>{
                                     </p>
                                 </Fade>
                             </div>
-                            <div className={`${styles.imgHolder} ${styles.forMob}`}>
-                                <a href={project.link} target="_blank"
-                            rel="noopener noreferrer">
-                                    <img src={project.image} alt="project1" />
-                                </a>
-                            </div>
+                            <Zoom>
+                                <div className={`${styles.imgHolder} ${styles.forMob}`}>
+                                    <a href={project.link} target="_blank"
+                                rel="noopener noreferrer">
+                                        <img src={project.image} alt="project1" />
+                                    </a>
+                                </div>
+                            </Zoom>
                             <Zoom delay={200}>
                                 <div className={`${styles.gitHolder} ${styles.forComp}`}>
                                     <a 
@@ -241,15 +243,17 @@ const Projects = ()=>{
                                     }
                                 </div>
                             </Bounce>
-                            <div className={`${styles.gitHolder} ${styles.forMob}`}>
-                                <a 
-                                    href={project.github} 
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    >
-                                        CODE ON GITHUB
-                                </a>
-                            </div>
+                            <Fade>
+                                <div className={`${styles.gitHolder} ${styles.forMob}`}>
+                                    <a 
+                                        href={project.github} 
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        >
+                                            CODE ON GITHUB
+                                    </a>
+                                </div>
+                            </Fade>
                         </div>
                     ))
                 }
