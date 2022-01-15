@@ -36,7 +36,14 @@ const IntroPage = ()=>{
                 <Bounce left delay={1000}>
                     <div className={Styles.buttonContainer}>
                         <a href="#abt" id={Styles.km}>KNOW MORE</a>
-                        <a href="#" id={Styles.res}>RESUME</a>
+                        <a 
+                            href="https://drive.google.com/file/d/1hGamTDmyXMC039WbKPMozZm0JYaGTppS/view?usp=sharing" 
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            id={Styles.res}
+                            >
+                            RESUME
+                        </a>
                     </div>
                 </Bounce>
             </div>

@@ -11,16 +11,16 @@ const Footer = ()=>{
             <div className={styles.main}>
                 <h2>Follow me on:</h2>
                 <div>
-                    <a href="" target="_blank" rel="noopener noreferrer"> 
+                    <a href="https://www.facebook.com/samaresh.samanta.1656" target="_blank" rel="noopener noreferrer"> 
                         <FaFacebookF />
                     </a>
-                    <a href="" target="_blank" rel="noopener noreferrer"> 
+                    <a href="https://github.com/nectro" target="_blank" rel="noopener noreferrer"> 
                         <AiFillGithub />
                     </a>
-                    <a href="" target="_blank" rel="noopener noreferrer"> 
+                    <a href="https://www.linkedin.com/in/samaresh-samanta-255a5b1b7/" target="_blank" rel="noopener noreferrer"> 
                         <AiFillLinkedin />
                     </a>
-                    <a href="" target="_blank" rel="noopener noreferrer"> 
+                    <a href="https://www.instagram.com/samaresh__samanta/" target="_blank" rel="noopener noreferrer"> 
                         <BsInstagram />
                     </a>
                 </div>
