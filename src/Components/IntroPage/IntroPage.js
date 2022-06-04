@@ -44,7 +44,7 @@ const IntroPage = ()=>{
                             <div className={Styles.buttonContainer}>
                                 <a href="#abt" id={Styles.km}>KNOW MORE</a>
                                 <a 
-                                    href="https://drive.google.com/file/d/1hGamTDmyXMC039WbKPMozZm0JYaGTppS/view?usp=sharing" 
+                                    href="https://drive.google.com/file/d/1Y_8u98dMZfmFWfV5fAcS0S6coqSVkn-L/view" 
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     id={Styles.res}
