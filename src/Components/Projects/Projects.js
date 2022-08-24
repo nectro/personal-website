@@ -51,6 +51,31 @@ const Projects = ()=>{
             ]
         },
         {
+            image:project2,
+            link:"https://wallpy.netlify.app",
+            name:"WALLPY",
+            description:"A webapp where people can share and download wallpapers. The project was sort of like unSplash but mostly on wallpaper. It was made using firebase and React. ",
+            github:"https://github.com/nectro/WallPy",
+            tools:[
+                skill3,
+                skill5,
+                skill1,
+                skill2
+            ]
+        },
+        {
+            image:project3,
+            link:"https://iamsamaresh.netlify.app",
+            name:"PORTFOLIO WEBSITE",
+            description:"My Portfolio Website made using React. Its basically a static page. all the animations are implemented using framer-motion and react-reaveal. I designed it in figma",
+            github:"https://github.com/nectro/personal-website",
+            tools:[
+                skill3,
+                skill1,
+                skill2
+            ]
+        },
+        {
             image:project8,
             link:"https://cap.aaruush.org/",
             name:"CAP PORTAL AARUUSH",
@@ -60,19 +85,6 @@ const Projects = ()=>{
                 skill11,
                 skill4,
                 skill3,
-                skill1,
-                skill2
-            ]
-        },
-        {
-            image:project2,
-            link:"https://wallpy.netlify.app",
-            name:"WALLPY",
-            description:"A webapp where people can share and download wallpapers. The project was sort of like unSplash but mostly on wallpaper. It was made using firebase and React. ",
-            github:"https://github.com/nectro/WallPy",
-            tools:[
-                skill3,
-                skill5,
                 skill1,
                 skill2
             ]
@@ -143,18 +155,6 @@ const Projects = ()=>{
             ]
         },
         {
-            image:project3,
-            link:"https://iamsamaresh.netlify.app",
-            name:"PORTFOLIO WEBSITE",
-            description:"My Portfolio Website made using React. Its basically a static page. all the animations are implemented using framer-motion and react-reaveal. I designed it in figma",
-            github:"https://github.com/nectro/personal-website",
-            tools:[
-                skill3,
-                skill1,
-                skill2
-            ]
-        },
-        {
             image:project4,
             link:"https://votersbay.000webhostapp.in",
             name:"CONFESS",
@@ -169,7 +169,7 @@ const Projects = ()=>{
         },
         {
             image:project5,
-            link:"https://esindia.in",
+            link:"https://iamsamaresh.netlify.app",
             name:"SUREPROF",
             description:"My first Website after i learned HTML, CSS and php. this was a website for my tution teacher wehere she could keep a record of all the fees paid.",
             github:"https://github.com/nectro/sureprof",
