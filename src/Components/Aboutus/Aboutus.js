@@ -43,7 +43,7 @@ const Aboutus = ()=>{
                 <Zoom>
                     <div className={styles.description}>
                         <p>
-                            Greetings! I'm a Third year student studying Computer Science and Engineering in SRMIST, enthusiastic coder eager to contribute to teams success via hard work and always have a thirst to learn about new technologies. I always love to work on unique and creative ideas which may make our daily lives easier. I have clear understanding in frontend development from my training in html, css and javascript. Some of my other skills are as follows:
+                            Greetings! I am a Full Stack Developer who graduated with a degree in Computer Science and Engineering from SRMIST, enthusiastic coder eager to contribute to teams success via hard work and always have a thirst to learn about new technologies. I always love to work on unique and creative ideas which may make our daily lives easier. I have clear understanding in frontend development from my training in html, css and javascript. Some of my other skills are as follows:
                         </p>
                     </div>
                 </Zoom>
