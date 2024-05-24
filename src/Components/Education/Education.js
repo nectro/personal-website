@@ -29,7 +29,7 @@ const Education = ()=>{
                             <h3>SRM INSTITUTE OF SCIENCE AND TECHNOLOGY</h3>
                         </Fade>
                         <Fade top>
-                            <p>(2020-PRESENT)</p>
+                            <p>(2020-2024)</p>
                             <p style={{fontSize:13, width: '90%'}} > - Coursework Operating System, Coputer Networks, Data Structures and Algoriths and Coputer Architechture, etc.</p>
                             <p style={{fontSize:13, width: '90%'}} > - Completed AWS Cloud foundation Course(<a href="https://drive.google.com/file/d/1PZqRBoHiLUM32-XcjMaIWaXPT4GP6e9H/view?usp=sharing" target="_blank" rel="noopener noreferrer">View</a>)</p>
                             <p style={{fontSize:13, width: '90%'}} > - Worked on a project on Airport Management System(<a href="https://drive.google.com/file/d/1G6o-n3Z-aGsEGeXKW8VMopZrvpY3UaAf/view?usp=sharing" target="_blank" rel="noopener noreferrer">View</a>)</p>
